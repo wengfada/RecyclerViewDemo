@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:layout_margin="8dp"
-    card_view:cardCornerRadius="4dp">
-   <TextView
-       android:id="@+id/itemTextView"
+    card_view:cardCornerRadius="0dp">
+   <ImageView
+       android:id="@+id/tv_item"
        android:layout_width="match_parent"
-       android:layout_height="?attr/listPreferredItemHeight"
+       android:layout_height="wrap_content"
        android:gravity="center_vertical"
        android:padding="8dp"
-       style="@style/Base.TextAppearance.AppCompat.Body2"/>
+       android:background="@mipmap/world"
+     />
     </android.support.v7.widget.CardView>
